@@ -19,7 +19,7 @@ def assign_rooms(list_of_speakers)
   
   list_speakers_of_speakers.each_with_index do |speaker, room_number|
     
-    list_room_assignments.push("Hello, #{speaker}! You'll be assigned to room #{(room_number+1).to_s}")
+    list_room_assignments.push("Hello, #{speaker}! You'll be assigned to room #{(room_number+1)}")
   end
   
   return list_room_assignments

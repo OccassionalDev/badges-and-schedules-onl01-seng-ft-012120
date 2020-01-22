@@ -13,6 +13,7 @@ def batch_badge_creator(name_list)
 end
 
 def assign_rooms(list_of_speakers)
-  
-  
+  list_speakers_of_speakers.each_with_index do |speaker, room_number|
+    
+  end
 end
